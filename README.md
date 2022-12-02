@@ -1,7 +1,7 @@
 # Petit Components Library - Experiment from Ignite Lab React
 
 - [About](#about)
-- [Project screenshot](#mobile-client)
+- [Project screenshots](#project-screenshots)
 - [Installation](#installation)
 - [Extra notes](#extra-notes)
 
@@ -12,34 +12,36 @@
 A really tiny components library. Exercise from Ignite Lab React.
 
 - Typescript
-- Vite
-- Figma
 - ReactJS
-- TailwindCSS
+- Vite
 - Storybook
+- TailwindCSS
 - Radix UI
 - Storybook Deployer
 - GitHub Actions
 - GitHub Pages
+- Figma
 
 <br>
 
-<img src=".github/project-screenshot-1.png"><br>
+## Project screenshots
 
-<img src=".github/project-screenshot-2.png"><br>
+<img src=".github/project-screenshot-1.png"><br/>
+<small style="font-size: 11px; color: rgba(125, 125, 125, 1);">Components preview on Figma.</small>
+<br/>
 
-<br>
+<img src=".github/project-screenshot-2.png"><br/>
+<small style="font-size: 11px; color: rgba(125, 125, 125, 1);">Log in UI pattern live preview in Storybook.</small>
+
+<br/>
 
 ## Installation
 
-- Navigate to an application root directory (mobile, server or web)
-- Install dependencies by running `npm install`
+- Navigate to an application root directory and install the dependencies running `npm install`
+- Run Storybook with `npm run storybook`
 - Run the application with `npm run dev`
 
-Two things to keep in mind:
-
-- You may install and run the server before running the client apps
-- As of today, none of the applications in this project is ready for deployment
+<small style="font-size: 11px; color: rgba(125, 125, 125, 1);">Check out package.json for more scripts.</small>
 
 <br>
 
