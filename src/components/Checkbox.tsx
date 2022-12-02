@@ -4,13 +4,16 @@ import { Check } from './Icons';
 import { useState } from 'react';
 
 //ROOT
-export interface CheckboxProps { }
+export interface CheckboxProps {
+  id: string;
+}
 
-export function Checkbox({ }: CheckboxProps) {
+export function Checkbox({ id }: CheckboxProps) {
   const [isChecked, setIsChecked] = useState(false);
 
   return (
     <CheckboxPrimitive.Root
+      id={id}
       className={clsx(
         "w-5 h-5 border border-t-outline-secondary border-outline-primary focus-within:border-accent-primary focus-within:ring-4 ring-focus-ring focus-within:outline-none rounded fill-on-accent",
         "flex items-center justify-center",

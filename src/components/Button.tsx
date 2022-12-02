@@ -1,13 +1,13 @@
 import { clsx } from 'clsx';
-import { ReactNode } from 'react';
+import { ButtonHTMLAttributes, ReactNode } from 'react';
 
-export interface ButtonProps {
-  variant: 'primary' | 'secondary';
-  fullWidth: boolean;
+export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
+  variant?: 'primary' | 'secondary';
+  fullWidth?: boolean;
   children: ReactNode;
 }
 
-export function Button({ children, variant = 'primary', fullWidth = false }: ButtonProps) {
+export function Button({ children, variant = 'primary', fullWidth = false, ...rest }: ButtonProps) {
   return (
     <button
       className={clsx(
@@ -24,7 +24,7 @@ export function Button({ children, variant = 'primary', fullWidth = false }: But
           "w-full ": fullWidth
         }
       )}
-
+      {...rest}
     >
       {children}
     </button>

@@ -40,7 +40,7 @@ export interface TextInputIconProps extends InputHTMLAttributes<HTMLInputElement
 
 export function TextInputIcon({ children }: TextInputIconProps) {
   return (
-    <Slot className="w-4 h-4 text-on-surface-secondary">
+    <Slot className="w-5 h-4 text-on-surface-secondary">
       {children}
     </Slot>
   );
