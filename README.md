@@ -1,4 +1,4 @@
-# Petit Components Library - Experiment from Ignite Lab React
+# Petit UI Library - Experiment from Ignite Lab React
 
 - [About](#about)
 - [Project screenshots](#project-screenshots)
@@ -9,7 +9,7 @@
 
 ## About
 
-A really tiny components library. Exercise from Ignite Lab React.
+A really tiny and experimental UI library that packs a handful of styles and ReactJS components. Documented with Storybook and deployed using GitHub Pages and GitHub Actions.
 
 - Typescript
 - ReactJS
@@ -27,7 +27,7 @@ A really tiny components library. Exercise from Ignite Lab React.
 ## Project screenshots
 
 <img src=".github/project-screenshot-1.png"><br/>
-<small style="font-size: 11px; color: rgba(125, 125, 125, 1);">Components preview on Figma.</small>
+<small style="font-size: 11px; color: rgba(125, 125, 125, 1);">Components and styles preview in Figma.</small>
 <br/>
 
 <img src=".github/project-screenshot-2.png"><br/>
