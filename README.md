@@ -9,8 +9,9 @@
 
 ## About
 
-A really tiny and experimental UI library that packs a handful of styles and ReactJS components. Documented with Storybook and deployed using GitHub Pages and GitHub Actions.
+A really tiny and experimental UI library that packs a handful of styles and ReactJS components. Documented with Storybook and deployed using GitHub Pages and GitHub Actions. Interact with the live project <a href="https://douglasf5.github.io/petit-ui-library/">here</a>!
 
+Tools used:
 - Typescript
 - ReactJS
 - Vite
