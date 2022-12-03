@@ -17,7 +17,7 @@ module.exports = {
   },
   viteFinal: (config, { configType }) => {
     if (configType === 'PRODUCTION') {
-      config.base = '/petit-design-system/';
+      config.base = '/petit-ui-library/';
     }
 
     return config;
