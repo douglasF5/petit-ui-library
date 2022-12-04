@@ -29,6 +29,8 @@ Tools used:
 
 <img src=".github/project-screenshot-1.png"><br/>
 <small style="font-size: 11px; color: rgba(125, 125, 125, 1);">Components and styles preview in Figma.</small>
+
+<br/>
 <br/>
 
 <img src=".github/project-screenshot-2.png"><br/>
