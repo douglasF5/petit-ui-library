@@ -1,4 +1,4 @@
-# Petit UI Library - Experiment from Ignite Lab React
+# Petit UI Library
 
 - [About](#about)
 - [Project screenshots](#project-screenshots)
