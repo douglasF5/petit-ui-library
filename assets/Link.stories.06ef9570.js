@@ -1,0 +1,2 @@
+import{L as t}from"./Link.e4116e26.js";import"./jsx-runtime.3a5b4c02.js";import"./index.cd7d5464.js";import"./iframe.4bfb832b.js";const i={title:"Components/Link",component:t,args:{children:"Link example",url:"https://storybook.js.org"},argTypes:{children:{table:{disable:!0}}}},s={},a=["LinkDefault"];export{s as LinkDefault,a as __namedExportsOrder,i as default};
+//# sourceMappingURL=Link.stories.06ef9570.js.map
